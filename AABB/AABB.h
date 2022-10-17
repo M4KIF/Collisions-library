@@ -1,11 +1,14 @@
-#pragma once
+//Mandatory vector math library
+#include<glm/glm.hpp>
 
-// Custom Libraries
-#include<glm.hpp>
-
-// Default Libraries
+//Default Libraries
 #include<array>
 #include<vector>
+
+//Include guard for safety measures
+#ifndef AABB_H
+#define AABB_H
+
 
 //
 // This object is set to contain all of the needed information to properly
@@ -98,3 +101,5 @@ namespace Collisions {
 	};
 
 }
+
+#endif
