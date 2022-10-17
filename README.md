@@ -1,2 +1,3 @@
-# AABB-Collisions
-A short aabb library that can be used for collision detection in any framework or engine
+# Collisions-library for c++
+
+Simple library for collision detection, has the ability do detect partial or full collison. 

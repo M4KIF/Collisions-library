@@ -1,0 +1,7 @@
+add_library(
+	AABB
+	"${CMAKE_CURRENT_SOURCE_DIR}/AABB/AABB.h"
+	"${CMAKE_CURRENT_SOURCE_DIR}/AABB/AABB.cpp"
+)
+
+target_include_directories(AABB PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
