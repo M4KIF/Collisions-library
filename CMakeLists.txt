@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-cmake_policy(CMP0048)
+cmake_policy(set CMP0048 new)
 
 project (Collisions)
 
