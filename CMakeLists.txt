@@ -1,7 +1,5 @@
-add_library(
-	AABB
-	"${CMAKE_CURRENT_SOURCE_DIR}/AABB/AABB.h"
-	"${CMAKE_CURRENT_SOURCE_DIR}/AABB/AABB.cpp"
-)
+cmake_minimum_required(VERSION 2.8.9)
+project (Collisions)
+set(CMAKE_CXX_STANDARD 11)
 
-target_include_directories(AABB PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/AABB)
