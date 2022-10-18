@@ -1,5 +1,4 @@
 #Making sure, that this script doesn't run on anything outdated
-#Version 3.13 has the CMP0079 set to true
 cmake_minimum_required(VERSION 3.13)
 
 #Setting the variable responsible for the project name
