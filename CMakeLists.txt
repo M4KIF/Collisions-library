@@ -1,5 +1,6 @@
 #Making sure, that this script doesn't run on anything outdated
-cmake_minimum_required(VERSION 3.12)
+#Version 3.13 has the CMP0079 set to true
+cmake_minimum_required(VERSION 3.13)
 
 #Setting the variable responsible for the project name
 set(PROJECT_NAME "Collisions")
